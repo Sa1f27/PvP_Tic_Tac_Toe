@@ -6,8 +6,8 @@ root.resizable(False, False)
 root.title("Tic Tac Toe")
 
 # Initialize variables for player names and symbols
-player1_name = "Player 1"
-player2_name = "Player 2"
+player1_name = "P1"
+player2_name = "P2"
 player1_symbol = "X"
 player2_symbol = "O"
 current_chr = player1_symbol
