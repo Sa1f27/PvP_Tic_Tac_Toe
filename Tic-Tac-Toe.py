@@ -2,7 +2,7 @@ import tkinter as tk
 
 # Initialize the main window
 root = tk.Tk()
-root.resizable(True, False)
+root.resizable(False, False)
 root.title("Tic Tac Toe")
 
 # Initialize variables for player names and symbols
