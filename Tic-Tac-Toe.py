@@ -5,7 +5,11 @@ root = tk.Tk()
 root.resizable(False, False)
 root.title("Tic Tac Toe")
 
-
+# Initialize variables for player names and symbols
+player1_name = "P1"
+player2_name = "P2"
+player1_symbol = "X"
+player2_symbol = "O"
 current_chr = player1_symbol
 
 # Function to set player names and update the status label
